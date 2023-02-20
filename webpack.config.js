@@ -4,11 +4,6 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-// import path from "path";
-// import { CleanWebpackPlugin } from "clean-webpack-plugin";
-// import HTMLWebpackPlugin from "html-webpack-plugin";
-// import MiniCssExtractPlugin from "mini-css-extract-plugin";
-
 const production = process.env.NODE_ENV === "production";
 
 module.exports = {
@@ -26,10 +21,6 @@ module.exports = {
   },
 
   plugins: [
-    new HTMLWebpackPlugin({
-      template: "src/index.html",
-      filename: "index.html",
-    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
       filename: "css/addon.css",
