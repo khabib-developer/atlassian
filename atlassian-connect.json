@@ -2,7 +2,7 @@
   "key": "teamlead-todolist",
   "name": "Teamlead TodoList",
   "description": "My very first app",
-  "baseUrl": "https://dry-wave-94859.herokuapp.com",
+  "baseUrl": "https://arcane-reaches-09678.herokuapp.com",
   "authentication": {
     "type": "jwt"
   },
