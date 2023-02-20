@@ -2,7 +2,7 @@
   "key": "teamlead-todolist",
   "name": "Teamlead TodoList",
   "description": "My very first app",
-  "baseUrl": "https://arcane-reaches-09678.herokuapp.com",
+  "baseUrl": "https://relaxed-wing.80-80-218-230.plesk.page",
   "authentication": {
     "type": "jwt"
   },

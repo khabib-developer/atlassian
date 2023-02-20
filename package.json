@@ -7,9 +7,12 @@
     "react-dom": "ReactDOM"
   },
   "scripts": {
+    "build-jsx-browser": "parcel build --log-level 1 --global __root_component --out-dir views views/*.jsx",
+    "build-jsx-node": "parcel build --log-level 1 --no-minify --target node --out-dir views/node views/*.jsx",
+    "build": "concurrently -i 'npm:build-*'",
     "start": "node -r esm app.js",
     "start:client": "webpack-dev-server --open",
-    "build": "npx webpack",
+    "build:client": "npx webpack",
     "dev": "concurrently 'npm run watch-server' 'npm run start:client'",
     "watch-server": "nodemon -e js -r esm app.js",
     "watch-jsx-browser": "parcel watch --log-level 1 --no-hmr --global __root_component --out-dir views views/*.jsx",
