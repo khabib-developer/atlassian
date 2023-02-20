@@ -2,7 +2,7 @@
   "key": "teamlead-todolist",
   "name": "Teamlead TodoList",
   "description": "My very first app",
-  "baseUrl": "https://e796-84-54-71-164.ngrok.io",
+  "baseUrl": "https://atlassiantask.herokuapp.com",
   "authentication": {
     "type": "jwt"
   },
